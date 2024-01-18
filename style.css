@@ -134,7 +134,7 @@ body{
 .img1{
     height: 100vh;
     overflow-y: hidden;
-    background: url("../../Photos And Videos/creepy_project/8.jpg");
+    background: url("Photos And Videos/creepy_project/8.jpg");
     background-repeat:no-repeat;
     background-attachment:fixed ;
     background-position: center;
@@ -144,7 +144,7 @@ body{
 .img2{
     height: 100vh;
     overflow-y: hidden;
-    background: url("../../Photos And Videos/creepy_project/6.jpg");
+    background: url("Photos And Videos/creepy_project/6.jpg");
     background-repeat:no-repeat;
     background-attachment:fixed ;
     background-position: center;
@@ -153,7 +153,7 @@ body{
 .img3{
     height: 100vh;
     overflow-y: hidden;
-    background: url("../../Photos And Videos/creepy_project/14.jpg");
+    background: url("Photos And Videos/creepy_project/14.jpg");
     background-repeat:no-repeat;
     background-attachment:fixed ;
     background-position: center;
