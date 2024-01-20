@@ -187,6 +187,7 @@ body{
 
 /* /////////////////-footer-///////////////// */
 footer{
+    background-color: rgb(39, 37, 37);
     min-height: 100vh;
     display: flex;
     justify-content: center;
