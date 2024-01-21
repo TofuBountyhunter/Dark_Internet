@@ -295,3 +295,18 @@ footer{
     justify-content: center;
 }
 /* /////////////////-Footer end-///////////////// */
+
+
+
+/* ////////////////--Home Page--//////////////////// */
+.main_content{
+    display: flex;
+    justify-content: center;
+}
+.card_container{
+    width: 80%;
+    min-height: 100vh;
+    background-color: black;
+    margin-top: 100px;
+    padding: 50px;
+}
