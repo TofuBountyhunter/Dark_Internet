@@ -35,6 +35,7 @@ body{
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.58);
 }
+
 /* //////////////////-nav-//////////////// */
 
 .navbar{
@@ -296,7 +297,25 @@ footer{
 }
 /* /////////////////-Footer end-///////////////// */
 
-
+/* //////////////////-Load-//////////////// */
+.load_screen{
+    width: 100%;
+    height: 100vh;
+    background-color: #2a2a2c;
+}
+.load_icon{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: none;
+}
+footer{
+    display:none;
+}
+/* //////////////////--//////////////// */  
 
 /* ////////////////--Home Page--//////////////////// */
 .search_bar{
@@ -448,3 +467,4 @@ footer{
     cursor:pointer;
     border: 1px solid red;
 }
+
