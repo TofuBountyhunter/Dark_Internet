@@ -81,12 +81,19 @@
             </div>
             <div class="copyright">
                 Copyright © 2024 NOVA Studio.inc. All rights reserved.
-                No reproduction, distribution, or transmission without prior written permission. <a href="#">For More Information...</a>
+                No reproduction, distribution, or transmission without prior written permission. <a href="#">For More
+                    Information...</a>
             </div>
 
         </div>
     </footer>
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <script>
+        let home_main = document.querySelector("main");
+        let home_footer = document.querySelector("footer");
+        home_main.style.display = "block";
+        home_footer.style.display = "flex";
+    </script>
 </body>
 
 </html>

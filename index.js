@@ -55,16 +55,16 @@ let home_main= document.querySelector("main");
 let home_footer= document.querySelector("footer");
 let agree_page=document.querySelector(".user_agreement");
 let signin = true;
-    if (!signin){
+    if (signin){
         agree_button.addEventListener("click",()=>{
             home_main.style.display="block";
-            home_footer.style.display ="block";
+            home_footer.style.display ="flex";
             agree_page.style.display="none"
         })
     }
     else{
         home_main.style.display="block";
-        home_footer.style.display ="block";
+        home_footer.style.display ="flex";
         agree_page.style.display="none"
     }
 
