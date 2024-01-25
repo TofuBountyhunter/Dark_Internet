@@ -345,7 +345,7 @@ footer{
     background-size: cover;
 } */
 /* //////////////-used for classList-////////// */
-
+/* 
 .agreement_info{
     border-radius: 20px;
     padding: 20px;
@@ -397,7 +397,7 @@ main{
 }
 footer{
     display:none;
-}
+} */
 
 /* //////////////////--//////////////// */
 /* ////////////////--Home Page--//////////////////// */
@@ -611,3 +611,24 @@ footer{
     }
 }
 /* /////////////////////-Image Loading -/////////////// */
+
+
+/* ////////////////////////-Sign-up Page-/////////////////////////////// */
+.sign_up{
+    height: 100vh;
+    overflow-y: hidden;
+    background: url("Photos And Videos/creepy_project/1.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign_up_form{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 300px;
+}
+/* ////////////////////////-Sign-up Page-/////////////////////////////// */
