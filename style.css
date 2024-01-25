@@ -589,17 +589,17 @@ footer{
     width: 45vh;
     height: 30vh;
     overflow: hidden;
-    animation: image_loading 1.5s ease-out 0s infinite;
+    /* animation: image_loading 1.5s ease-out 0s infinite; */
 }
 .card_image{
-    opacity: 0;
-    transition:all 1s linear 0s;
-}
-.img_loaded{
     opacity: 1;
+    /* transition:all 1s linear 0s; */
 }
+/* .img_loaded{
+    opacity: 1;
+} */
 
-@keyframes image_loading {
+/* @keyframes image_loading {
     0%{
         background-color: rgba(13, 13, 13, 0.365);
     }
@@ -609,7 +609,7 @@ footer{
     100%{
         background-color: rgba(13, 13, 13, 0.365);
     }
-}
+} */
 /* /////////////////////-Image Loading -/////////////// */
 
 
@@ -617,18 +617,86 @@ footer{
 .sign_up{
     height: 100vh;
     overflow-y: hidden;
-    background: url("Photos And Videos/creepy_project/1.jpg");
+    background: url("Photos And Videos/creepy_project/14.jpg");
     background-repeat:no-repeat;
     background-attachment:fixed ;
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content:end;
+    flex-wrap: wrap;
     align-items: center;
 }
 .sign_up_form{
-    background-color: rgb(255, 255, 255);
-    height: 400px;
-    width: 300px;
+    margin-right: 200px;
+    background-color: rgb(34, 32, 32);
+    /* background-color: transparent; */
+    height: 450px;
+    width: 320px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.sign_up_form{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.sign_up_title{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form_label{
+    font-size: 20px;
+}
+.form_textfield{
+    font-family: "roboto",sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 250px;
+    padding: 4px 10px;
+    background-color: rgba(255, 255, 255, 0.779);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.submit_button{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.submit_button input{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-family: 'Bebas Neue', sans-serif;
+    border: 1px solid white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all 0.3s linear 0s;
+    padding: 6px 14px;
+    
+}
+.submit_button input:hover{
+    box-shadow: 0px 0px 15px 3px rgb(255, 0, 0);
+    color: black;
+    background-color: rgb(255, 0, 0);
+    cursor:pointer;
+    border: 1px solid red;
+}
+.login_link{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    font-family: "roboto",sans-serif;
+    font-size: 18px;
+
+}
+.login_link a{
+    padding-left: 6px;
+    color: blueviolet;
+    font-weight: bolder;
 }
 /* ////////////////////////-Sign-up Page-/////////////////////////////// */
