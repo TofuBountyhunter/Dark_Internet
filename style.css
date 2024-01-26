@@ -614,6 +614,21 @@ footer{
 
 
 /* ////////////////////////-Sign-up Page-/////////////////////////////// */
+.sign_up ::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.back_button{
+    margin: 20px;
+    position: absolute;
+}
+.back_button img{
+    width: 50px;
+    transition: all 0.2s linear 0s;
+}
+.back_button img:hover{
+    filter:drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    transform: scale(1.15);}
 .sign_up{
     height: 100vh;
     overflow-y: hidden;
