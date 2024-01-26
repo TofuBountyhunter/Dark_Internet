@@ -196,7 +196,7 @@ body{
 .img3{
     height: 100vh;
     overflow-y: hidden;
-    background: url("Photos And Videos/creepy_project/14.jpg");
+    background: url("Photos And Videos/creepy_project/5.jpg");
     background-repeat:no-repeat;
     background-attachment:fixed ;
     background-position: center;
@@ -623,12 +623,12 @@ footer{
     position: absolute;
 }
 .back_button img{
-    width: 50px;
+    width: 45px;
     transition: all 0.2s linear 0s;
 }
 .back_button img:hover{
     filter:drop-shadow(0px 0px 10px rgb(255, 255, 255));
-    transform: scale(1.15);}
+    transform: scale(1.05);}
 .sign_up{
     height: 100vh;
     overflow-y: hidden;
@@ -646,7 +646,7 @@ footer{
     margin-right: 200px;
     background-color: rgb(34, 32, 32);
     /* background-color: transparent; */
-    height: 450px;
+    max-height: 450px;
     width: 320px;
     padding: 30px;
     border: 1px solid white;
@@ -678,6 +678,20 @@ footer{
     border-radius: 5px;
     margin-bottom: 15px;
 }
+/* .form_textfield{
+    font-family: "roboto",sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    height: 30px;
+    width: 250px;
+    padding: 4px 2px;
+    background-color: transparent;
+    margin-bottom: 15px;
+} */
 .submit_button{
     margin-top: 15px;
     display: flex;
@@ -715,3 +729,15 @@ footer{
     font-weight: bolder;
 }
 /* ////////////////////////-Sign-up Page-/////////////////////////////// */
+
+/* ////////////////////////-Log-In Page-/////////////////////////////// */
+.forgot_password{
+    margin: 20px 0px;
+}
+.forgot_password a{
+    font-family: "roboto",sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(77, 77, 226);
+}
+/* ////////////////////////-Log-In Page-/////////////////////////////// */
