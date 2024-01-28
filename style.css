@@ -663,7 +663,8 @@ footer{
     margin-bottom: 20px;
 }
 .form_label{
-    font-size: 20px;
+    font-family: "roboto",sans-serif;
+    font-size: 16px;
 }
 .form_textfield{
     font-family: "roboto",sans-serif;
@@ -677,6 +678,7 @@ footer{
     background-color: rgba(255, 255, 255, 0.779);
     /* border-radius: 5px; */
     margin-bottom: 15px;
+    margin-top: 5px;
 }
 /* .form_textfield{
     font-family: "roboto",sans-serif;
@@ -738,7 +740,6 @@ footer{
     background-attachment:fixed ;
     background-position: center;
     background-size: cover;
-
 }
 .forgot_password{
     margin: 20px 0px;
@@ -750,3 +751,27 @@ footer{
     color: blueviolet;
 }
 /* ////////////////////////-Log-In Page-/////////////////////////////// */
+
+/* ////////////////////////-Forgot Password Page-/////////////////////////////// */
+.email_varification{
+    font-size: 15px;
+    width: 250px;
+    font-family: "roboto",sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.forgot_password_page{
+    background: url("Photos And Videos/creepy_project/3.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.forgot_form{
+    margin-right: 0px;
+}
+/* ////////////////////////-Forgot Password Page-/////////////////////////////// */
