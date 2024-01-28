@@ -665,8 +665,9 @@ footer{
 .form_label{
     font-family: "roboto",sans-serif;
     font-size: 16px;
+    display: none;
 }
-.form_textfield{
+/* .form_textfield{
     font-family: "roboto",sans-serif;
     font-size: 16px;
     font-weight: bolder;
@@ -676,11 +677,10 @@ footer{
     width: 250px;
     padding: 4px 10px;
     background-color: rgba(255, 255, 255, 0.779);
-    /* border-radius: 5px; */
     margin-bottom: 15px;
     margin-top: 5px;
-}
-/* .form_textfield{
+} */
+.form_textfield{
     font-family: "roboto",sans-serif;
     font-size: 16px;
     font-weight: bolder;
@@ -690,12 +690,12 @@ footer{
     border-bottom: 2px solid white;
     height: 30px;
     width: 250px;
-    padding: 4px 2px;
+    padding: 4px 10px;
     background-color: transparent;
     margin-bottom: 15px;
-} */
+}
 .submit_button{
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -719,17 +719,16 @@ footer{
     border: 1px solid red;
 }
 .login_link{
-    margin-top: 45px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     font-family: "roboto",sans-serif;
-    font-size: 18px;
-
+    font-size: 16px;
 }
 .login_link a{
     padding-left: 6px;
     color: blueviolet;
-    font-weight: bolder;
+    font-weight: 500;
 }
 /* ////////////////////////-Sign-up Page-/////////////////////////////// */
 
@@ -746,7 +745,7 @@ footer{
 }
 .forgot_password a{
     font-family: "roboto",sans-serif;
-    font-weight: bolder;
+    font-weight: 500;
     font-size: 16px;
     color: blueviolet;
 }
@@ -754,7 +753,7 @@ footer{
 
 /* ////////////////////////-Forgot Password Page-/////////////////////////////// */
 .email_varification{
-    font-size: 15px;
+    font-size: 14px;
     width: 250px;
     font-family: "roboto",sans-serif;
     margin-bottom: 20px;
@@ -773,5 +772,11 @@ footer{
 }
 .forgot_form{
     margin-right: 0px;
+}
+.email_textfield{
+    margin-top: 50px;
+}
+.forgot_link{
+    margin-top: 20px;
 }
 /* ////////////////////////-Forgot Password Page-/////////////////////////////// */
