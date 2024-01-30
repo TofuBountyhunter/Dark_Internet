@@ -406,23 +406,28 @@ footer{
     align-items: center;
 }
 .search_bar input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     height: 20px;
     background-color: rgba(0, 0, 0, 0.498);
     border: none;
-    padding: 10px 10px;
+    padding: 10px 15px;
     color: aliceblue;
     outline: none;
     border: 2px solid black;
-    font-size: 20px;
+    font-size: 18px;
     border-right: 0px;
 }
 .search_button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
     height: 43px;
     color: rgba(255, 255, 255, 0.8);
     background-color: rgba(0, 0, 0, 0.498);
     font-family: 'Bebas Neue', sans-serif;
     border: 2px solid rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     transition: all 0.3s linear 0s;
     padding: 6px 6px;
