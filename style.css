@@ -681,7 +681,7 @@ footer{
     margin-top: 5px;
 } */
 .form_textfield{
-    background: none;
+    /* background: none; */
     font-family: "roboto",sans-serif;
     font-size: 16px;
     font-weight: bolder;
@@ -695,6 +695,19 @@ footer{
     background-color: transparent;
     margin-bottom: 15px;
 }
+
+/* /////////////////////////////////-autofill input to transparent code-///////////////// */
+.form_textfield:-webkit-autofill,
+.form_textfield:-webkit-autofill:hover,
+.form_textfield:-webkit-autofill:focus,
+.form_textfield:-webkit-autofill:active{
+    transition:  background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white !important;
+}
+/* /////////////////////////////////-autofill input to transparent code-///////////////// */
+
+
+
 .submit_button{
     margin-top: 30px;
     display: flex;
