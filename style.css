@@ -619,10 +619,6 @@ footer{
 
 
 /* ////////////////////////-Sign-up Page-/////////////////////////////// */
-.sign_up ::selection{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-}
 .back_button{
     margin: 20px;
     position: absolute;
@@ -799,3 +795,55 @@ footer{
     margin-top: 20px;
 }
 /* ////////////////////////-Forgot Password Page-/////////////////////////////// */
+
+/* ////////////////////////-Profile Page-/////////////////////////////// */
+.profile_background{
+    background-color: black;
+}
+.profile{
+    width: 100%;
+    z-index: -1;
+    height: 26vh;
+}
+.profile_content{
+    /* border-radius: 30px; */
+    border: 5px solid rgb(82, 81, 81);
+    /* width: 100%; */
+    min-height: 72vh;
+    background-color: rgb(25, 26, 30);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profile_picture{
+    margin-top: -120px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(82, 81, 81);
+    /* overflow: hidden; */
+}
+.profile_picture img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile_name{
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.name_position{
+    /* width: fit-content; */
+    width: 500px;
+    height: 70px;
+}
+
+/* ////////////////////////-Profile Page-/////////////////////////////// */
+
