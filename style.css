@@ -647,7 +647,7 @@ footer{
     margin-right: 200px;
     background-color: rgb(34, 32, 32);
     /* background-color: transparent; */
-    max-height: 450px;
+    max-height: 500px;
     width: 320px;
     padding: 30px;
     border: 1px solid white;
@@ -734,7 +734,7 @@ footer{
     border: 1px solid red;
 }
 .login_link{
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     font-family: "roboto",sans-serif;
@@ -744,6 +744,31 @@ footer{
     padding-left: 6px;
     color: blueviolet;
     font-weight: 500;
+}
+.login_icons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.using_social{
+    padding: 5px;
+    padding-bottom: 0px;
+    /* filter:drop-shadow(0px 0px 10px rgb(255, 255, 255)); */
+    transition: all 0.2s linear 0s;
+}
+
+.using_social img{
+    width: 35px;
+    height: 35px;
+    transition: all 0.2s linear 0s;
+}
+.X img{
+    filter:drop-shadow(0px 0px 3px rgb(255, 255, 255));
+}
+.using_social:hover{
+    filter:drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    transform: scale(1.1);
 }
 /* ////////////////////////-Sign-up Page-/////////////////////////////// */
 
@@ -803,15 +828,14 @@ footer{
 .profile{
     width: 100%;
     z-index: -1;
-    height: 26vh;
+    height: 18vh;
 }
 .profile_content{
     /* border-radius: 30px; */
-    border: 2px solid rgb(44, 49, 57);
-    border-bottom: none;
+    border-top: 4px solid rgb(97, 97, 99);
     /* width: 100%; */
     background-color: rgb(13, 17, 23);
-    min-height: 22vh;
+    min-height: 30vh;
     display: flex;
     justify-content: center;
     /* flex-direction: column;
@@ -819,18 +843,18 @@ footer{
     flex-wrap: wrap;
 }
 .profile_picture{
-    background-color: rgb(42, 42, 43);
-    margin-top: -150px;
-    width: 220px;
-    height: 220px;
+    background-color: rgb(57, 57, 57);
+    margin-top: -110px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 3px solid rgb(44, 49, 57);
+    border: 4px solid rgb(97, 97, 99);
     /* overflow: hidden; */
 }
 .profile_picture img{
     object-fit: cover;
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -851,7 +875,7 @@ footer{
 .user_content{
     min-height:51vh;
     background-color: rgb(13, 17, 23);
-    border: 2px solid rgb(44, 49, 57);
+    /* border: 2px solid rgb(44, 49, 57); */
     border-top: none;
 }
 
