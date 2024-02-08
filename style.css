@@ -406,8 +406,8 @@ footer{
     align-items: center;
 }
 .search_bar input{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     height: 20px;
     background-color: rgba(0, 0, 0, 0.498);
     border: none;
@@ -419,8 +419,8 @@ footer{
     border-right: 0px;
 }
 .search_button{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 
     height: 43px;
     color: rgba(255, 255, 255, 0.8);
@@ -450,6 +450,7 @@ footer{
 
 .select {
     /* appearance: none; */
+    border-radius: 10px;
     text-align: center;
     width: 260px;
     height: 42px;
@@ -505,7 +506,9 @@ footer{
     gap: 50px;
     max-width: 130vh;
     height: 30vh;
-    border: 2px solid rgba(255, 255, 255, 0.63);
+    background-color: rgb(23, 23, 31);
+    border-radius: 10px;
+    /* border: 2px solid rgba(255, 255, 255, 0.63); */
     margin: 10px 10px;
     margin-bottom:50px ;
     transition: all 0.2s linear 0s;
@@ -539,9 +542,10 @@ footer{
     font-size: 22px;
     font-weight:200;
     letter-spacing: 1px;
-    height: 50px;
+    height: 40px;
     overflow: hidden;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .card_description{
     font-family: "roboto",sans-serif;
@@ -556,14 +560,14 @@ footer{
 }
 
 .release_date{
-    margin-top: 45px;
+    margin-top: 37px;
     font-size: 13px;
     margin-right: 10px;
     font-family: "roboto",sans-serif;
 
 }
 .disturbing_rating{
-    margin-top: 45px;
+    margin-top:37px;
     font-size: 13px;
     margin-right: 10px;
     font-weight: 500;
@@ -571,8 +575,10 @@ footer{
   
 }
 .detail_button{
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.66);
     background-color: transparent;
     font-family: 'Bebas Neue', sans-serif;
     border: 1px solid white;
