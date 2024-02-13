@@ -68,9 +68,9 @@ body{
 }
 .logo a{
     position: fixed;
-    top: 1px;
+    top: 5px;
     color: rgba(255, 255, 255, 0.58);
-    font-size: 60px;
+    font-size: 50px;
 }
 .nav_con::after{
     content: "";
@@ -299,7 +299,80 @@ footer{
     justify-content: center;
 }
 /* /////////////////-Footer end-///////////////// */
+/* //////////////////////////////////////-Responsive For about page-/////////////////////////////////////// */
 
+/* ///////////////////-nav-////////////////// */
+@media(max-width:1150px) {
+    .logo a{
+        top: 10px;
+        color: rgba(255, 255, 255, 0.58);
+        font-size: 35px;
+    }
+    .nav_con{
+        width: 60px;
+        color: rgba(255, 255, 255, 0.58);
+        font-size:15px
+    }
+    .navbar li{
+        width: 70px;
+    }
+    .signup_button{
+        font-size: 15px;
+        padding: 4px 12px;
+    }
+/* ///////////////////-nav-////////////////// */
+
+    .title{
+        font-size: 40px;
+    }
+    .intro{
+        margin-top: 50px;
+        font-size: 17px;
+    }
+    .button{
+        margin-top: 50px;
+        font-size: 20px;
+        padding: 5px 25px;
+    }
+
+    /* ///////////////////-footer-////////////////// */
+    .start-page img{
+        margin: 10px;
+        margin-left: 30px;
+        margin-top: 100px;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+    }
+    .social{
+        margin: 10px;
+    }
+    .social img{
+        margin:15px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+    .head{
+        font-size: 40px;
+        margin: 60px 0px;
+        margin-top: 0px;
+    }
+    .follow_us{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+    .copyright{
+        font-size: 14px;
+        margin-top: 150px;
+    }
+    /* ///////////////////-footer-////////////////// */
+}
+
+/* //////////////////////////////////////-Responsive For about page-/////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////-Load-//////////////// */
 /* .load_screen{
     width: 100%;
@@ -401,6 +474,27 @@ footer{
 
 /* //////////////////--//////////////// */
 /* ////////////////--Home Page--//////////////////// */
+
+/* /////////////////////////////////-For Scroll animation in the cards-////////////////////// */
+@keyframes enter-animation {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .image-animation {
+      animation: enter-animation 0.8s 1;
+    }
+  }
+
+  /* /////////////////////////////////-For Scroll animation in the cards-////////////////////// */
+
+
 .search_bar{
     display: flex;
     align-items: center;
@@ -481,7 +575,7 @@ footer{
     width: 80%;
     min-height: 100vh;
     /* background-color: rgba(0, 0, 0, 0.484); */
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 50px;
     padding-top: 10px;
     margin-bottom: 50px;
@@ -748,7 +842,7 @@ footer{
 }
 .login_link a{
     padding-left: 6px;
-    color: blueviolet;
+    color: rgb(20, 158, 202);
     font-weight: 500;
 }
 .login_icons{
@@ -793,7 +887,7 @@ footer{
     font-family: "roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: blueviolet;
+    color: rgb(20, 158, 202);
 }
 /* ////////////////////////-Log-In Page-/////////////////////////////// */
 
